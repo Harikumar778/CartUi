@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1400px;
+  min-width: 320px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navlinks {
+  display: flex;
+}
+.navlinks li {
+  margin: 10px;
+  list-style: none;
+}
+.navlinks li a {
+  text-decoration: none;
+  font-weight: bold;
+}
